@@ -1,0 +1,5 @@
+DIV - ela cria contêiner/divisão
+
+ID - seria uma identificação única para DIV
+
+Class - seria um grupo, pois você pode repetir para outras TAG's

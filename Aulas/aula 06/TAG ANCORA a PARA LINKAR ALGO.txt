@@ -1,0 +1,10 @@
+TAG ANCORA <a> PARA LINKAR ALGO 
+
+ex.: <a> Leia mais </a> porem para funcionar, precisa adicionar um atributo, sendo:
+ex.: <a herf= "http://google.com"> Leia mais </a>
+
+HREF - para trazer algum link (ABRE O LINK DA MESMA ABA)
+
+TARGET = serve para definir o comportamento após clicar no link (ABRE OUTRA ABA)
+
+ex.: target="_blank"
