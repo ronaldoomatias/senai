@@ -1,0 +1,6 @@
+.box{
+    max-width: 1024px; /*largura maxima*/
+    height: 300px;
+    margin: 0 auto;
+    background-color: #f00;
+}
