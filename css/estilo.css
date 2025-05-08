@@ -12,12 +12,13 @@ body {
   padding: 20px;
 }
 h2 {
-  color: #0a39d2;
+  color: #000800;
   text-align: center;
 }
 .container img{
   display: block;
-  margin: 0 auto
+  margin: 0 auto;
+  width: 80%;
 }
 a {
   text-decoration: none;
