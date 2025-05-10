@@ -29,6 +29,51 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .banner img{
     width: 100%;
 }
+.section .container{
+    flex-direction: column;
+}
+.section h2{
+   color: #c12a21;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 300px;
+    height: auto;
+    background-color: #c12a21;
+    border-radius: 15px;
+    padding: 8px 16px 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box h2{
+    color: #fff;
+    text-align: center;
+}
+.box img{
+    width: 100%;
+}
+.bnt{
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 8px 16px;
+    box-sizing: border-box; /*imperde o padding de estourar*/
+    text-transform: uppercase;/*Força o texto em caixa alta*/
+    display: inline-block;
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
 .footer{
     background-color: #c12a21;
     width: 100%;
@@ -37,6 +82,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     align-items: center;
     color: #fff;
     padding: 32px 0;
+    margin-top: 32px;
 }
 
 /*mobile responsiva*/
@@ -54,5 +100,13 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     }
     .banner{
         width: 100%;
+    }
+    .content{
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        margin-top: 16px;
     }
 }
